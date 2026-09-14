@@ -1,1 +1,15 @@
 There will be .java files in here where we write code together in class!
+System.out.println("Welcome to Fredbear's Family Dinner!");
+double item1Price = 3.95;
+double item2Price = 5.00;
+double item3Price = 7.50;
+System.out.println("Here's our menu:");
+System.out.println("1. 99 flavors of cheese pizza - " + item3Price);
+System.out.println("2. Pepperoni pizza - " + item1Price);
+System.out.println("3. Shrimp pizza - " + item2Price);
+
+Scanner sc = new Scanner(System.in);
+System.out.println("Who is purchasing?");
+String name = sc.nextLine();
+System.out.println("How many Dog Food would you like?");
+int item1Amt 
