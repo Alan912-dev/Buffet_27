@@ -9,6 +9,41 @@ class starter {
 	public static void main(String args[]) {
 		// the string "I love to learn coding remotely." will appear in
 		// the command window when you compile and run this program.
-		System.out.print("I love to learn coding remotely."); 
-	}
-}
+		 Scanner input = new Scanner(System.in);
+		 System.out.println("Please enter your first number: ");
+		 int num1 = input.nextInt();
+		 System.out.println("Please enter your second number: ");
+		 int num2 = input.nextInt();
+		 System.out.println("Please enter your third number: ");
+		 int num3 = input.nextInt();
+		 if(num1 > num2 && num1 > num3){
+			System.out.println("Your first number is the largest of the three");
+			System.out.println("The largest number is "+num1);
+		 }
+		 else if(num2 > num1 && num2 > num3){
+			System.out.println("Your second number is the largest of the three");
+			System.out.println("The largest number is "+num2);
+		 }
+		 else if(num3 > num1 && num3 > num2){
+			System.out.println("Your third number is the largest of the three");
+			System.out.println("The largest number is " +num3);
+		 }
+		 if(num3 < num1 && num3 < num2){
+			System.out.println("Your third number is the smallest of the three");
+			System.out.println("The smallest number is "+num3);
+		 }
+		 else if(num2 < num1 && num2 < num3){
+			System.out.println("Your second number is the smallest of the three");
+			System.out.println("The smallest number is "+num2);
+		 }
+		 else if(num1 < num2 && num1 < num3){
+			System.out.println("Your first number is the smallest of the three");
+			System.out.println("The smallest number is "+num1);
+		 }
+		 }
+
+		 }
+		
+		
+
+
