@@ -13,12 +13,13 @@ class starter {
 		String name = sc.nextLine();
 		System.out.println("How many times we should print out your name?");
 		int num1 = sc.nextInt();
+		int x = 0;
 		while(true){
-			if(name.equals(num1)){
+			if(x == num1){
 				break;
 			}
 			System.out.println(name);
-			num1 = num1 + 1;
+			x = x + 1;
 		}
 
 
